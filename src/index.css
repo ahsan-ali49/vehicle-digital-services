@@ -425,3 +425,65 @@ box-sizing: border-box;
     flex-grow: 0;
 
 }
+
+.contact-div{
+    /* isolation: isolate; */
+
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 43.72%), radial-gradient(50% 50% at 50% 50%, #040A1F 0%, #040A1F 100%);
+    border-radius: 25px;
+
+
+    border-width: 0px 0px 2px 0px;
+
+    border-image: linear-gradient(to right,#33EEFD 100%,transparent 10%) 1;
+    /* background: linear-gradient(0deg, transparent 1.53%, rgba(255,255,255,0.2) 98%, transparent 1.53%); */
+}
+
+.contact-div-heading{
+    /* Make an Informed Decision — Check Your VIN Today */
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.contact-div-para{
+    /* Don't wait until it's too late. Check your VIN now and drive away with confidence. */
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.contact-div-btn{
+    /* Frame 1321314923 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    width: 185px;
+    height: 54px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px #FFFFFF;
+    border-radius: 10px;
+
+}
