@@ -281,3 +281,104 @@ box-sizing: border-box;
     flex-grow: 0;
 
 }
+
+.pricing-heading{
+    /* Pricing Options for Every Need */
+
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.pricing-card{
+/* Frame 1321314931 */
+
+    box-sizing: border-box;
+
+    padding: 30px 25px;
+
+    /* position: absolute; */
+    width: 416.67px;
+    height: 555px;
+    /* left: 436.67px;
+    top: 0px; */
+
+    background: linear-gradient(135deg, #1E2438 100%, #1C2032 0%);
+    border: 3px solid #33EEFD;
+    box-shadow: -11px 11px 22px rgba(20, 23, 36, 0.2), 11px -11px 22px rgba(20, 23, 36, 0.2), -11px -11px 22px rgba(38, 45, 70, 0.9), 11px 11px 28px rgba(20, 23, 36, 0.9), inset 1px 1px 2px rgba(38, 45, 70, 0.3), inset -1px -1px 2px rgba(20, 23, 36, 0.5);
+    backdrop-filter: blur(3.75px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 15px;
+
+}
+
+.card-title{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+}
+
+.card-pricing{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.feature-list{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 366.67px;
+    height: 228px;
+}
+
+.pc-btn{
+        /* Frame 1321314923 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+
+    width: 366.67px;
+    height: 54px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px #33EEFD;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+
+}

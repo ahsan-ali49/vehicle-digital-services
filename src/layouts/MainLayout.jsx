@@ -1,11 +1,11 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import HeroPage from "../components/HeroPage";
 
 const MainLayout = () => {
   return (
-    <div className="p-3">
-      <Navbar />
+    <div>
+      <HeroPage />
       <Outlet />
     </div>
   );
