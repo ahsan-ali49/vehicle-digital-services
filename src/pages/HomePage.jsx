@@ -3,6 +3,7 @@ import Report from "../components/Report";
 import ReportSections from "../components/ReportSections";
 import Pricing from "../components/Pricing";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <ReportSections />
       <Pricing />
       <Contact />
+      <Footer />
     </>
   );
 };

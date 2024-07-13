@@ -624,3 +624,20 @@ box-sizing: border-box;
     flex-grow: 0;
 
 }
+
+.footer-para{
+    /* Empower your vehicle purchase with our comprehensive VIN check service. Uncover the truth, make informed decisions, and drive away with peace of mind. */
+
+    width: 447px;
+    /* height: 66px;  */
+
+    /* font-family: 'Inter Display'; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+}
