@@ -452,6 +452,19 @@ box-sizing: border-box;
 
 }
 
+.contact-div-heading-2{
+    /* Get in Touch — We're Here to Help */
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+
+    color: #000000;
+
+}
+
 .contact-div-para{
     /* Don't wait until it's too late. Check your VIN now and drive away with confidence. */
 
@@ -462,6 +475,19 @@ box-sizing: border-box;
     letter-spacing: -0.02em;
 
     color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.contact-div-para-2{
+    /* Have a question about our VIN check services? Need assistance with a report or looking for more information? Our friendly and knowledgeable customer support team is ready to help. */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
 
     opacity: 0.7;
 }
@@ -485,5 +511,116 @@ box-sizing: border-box;
     background: #FFFFFF;
     box-shadow: 0px 0px 0px 1px #FFFFFF;
     border-radius: 10px;
+
+}
+
+.name-form-field{
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12.5px 15px;
+    gap: 10px;
+
+    width: 280px;
+    height: 49px;
+
+    background: linear-gradient(135deg, #E5E5E5 100%, #FDFDFD 0%);
+    box-shadow: -5px 5px 10px rgba(212, 212, 212, 0.2), 5px -5px 10px rgba(212, 212, 212, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(212, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(212, 212, 212, 0.5);
+    border-radius: 8px;
+
+}
+
+.email-form-field{
+    /* Frame 1321314921 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12.5px 15px;
+    gap: 10px;
+
+    width: 280px;
+    height: 49px;
+
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 8px;
+
+}
+
+.contact-form-field{
+    /* Frame 1321314922 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12.5px 15px;
+    gap: 10px;
+
+    width: 455px;
+    height: 49px;
+
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.message-form-field{
+    /* Frame 1321314923 */
+
+    /* box-sizing: border-box; */
+
+    padding: 0px 15px;
+
+    width: 560px;
+    height: 123px;
+
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 8px;
+
+}
+
+.contact-form-sbmtbtn{
+    /* Frame 1321314923 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+
+    width: 99px;
+    height: 44px;
+
+    background: linear-gradient(180deg, #101D4A 0%, #040A1F 100%);
+    border: 1.5px solid #FFFFFF;
+    box-shadow: 0px 0px 0px 1px #041747;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 
 }
