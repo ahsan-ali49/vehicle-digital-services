@@ -318,6 +318,23 @@ box-sizing: border-box;
 
 }
 
+.pricing-card-secondary{
+    /* Frame 1321314912 */
+
+    box-sizing: border-box;
+
+    padding: 25px;
+
+    width: 379px;
+    height: 494px;
+
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(3.75px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 15px;
+
+}
+
 .card-title{
 
     font-style: normal;
@@ -372,6 +389,32 @@ box-sizing: border-box;
     height: 54px;
 
     background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px #33EEFD;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.pc-btn-secondary{
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+
+    width: 329px;
+    height: 54px;
+
     box-shadow: 0px 0px 0px 1px #33EEFD;
     border-radius: 10px;
 
