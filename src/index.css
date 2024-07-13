@@ -251,11 +251,33 @@ body::-webkit-scrollbar {
 box-sizing: border-box;
     gap: 15px;
 
-    /* width: 1290px;
-    height: 174px; */
-
     background: linear-gradient(180deg, rgba(61, 109, 255, 0.05) 0%, rgba(0, 40, 161, 0.05) 100%);
     border: 1px solid #B8B8B8;
     border-radius: 15px;
+
+}
+
+.report-section-heading{
+    /* Our Report Checks For */
+
+    /* width: 1290px;
+    height: 67px; */
+
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 
 }
