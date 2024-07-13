@@ -3,8 +3,8 @@ import navbarLogo from "../assets/images/navbarLogo.png";
 
 const Navbar = () => {
   return (
-    <nav className="w-full rounded-t-3xl hero-bg">
-      <div className="flex flex-wrap items-center justify-between mx-auto py-5 px-9">
+    <nav className="w-full rounded-t-3xl py-5 px-9 hero-bg">
+      <div className="flex flex-wrap items-center justify-between mx-auto">
         <a
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            className="hover:bg-blue-800 dark:hover:bg-blue-700 border border-1 border-gray-950 contact-btn"
+            className="hover:bg-blue-800 dark:hover:bg-blue-700 border border-1 border-gray-950 h-10 contact-btn"
           >
             Contact Us
           </button>

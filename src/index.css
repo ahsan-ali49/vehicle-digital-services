@@ -6,6 +6,10 @@ body{
     width: 100vw;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .hero-bg{
 
     background: radial-gradient(50% 50% at 50% 50%, #040A1F 0%, #040A1F 100%);
@@ -15,29 +19,243 @@ body{
 .contact-btn{
 /* Frame 1321314909 */
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px 20px;
-gap: 10px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
 
-margin: 0 auto;
-width: 124px;
-height: 42px;
+    /* margin: 0 auto; */
+    /* width: 124px; */
+    height: 42px;
 
-background: #FFFFFF;
-box-shadow: 0px 0px 0px 1px #FFFFFF;
-border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px #FFFFFF;
+    border-radius: 10px;
 
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 
 }
 
 
+.span-text{
+    color: #33EEFD;
+}
+
+.hero-heading{
+    /* Helping you choose the Right Vehicle */
+
+    width: 641.26px;
+    height: 172px;
+
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.hero-span{
+    /* Your Free VIN Check is just a click away! */
+
+    width: 1320px;
+    height: 24px;
+
+    /* font-family: 'Inter Display'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.form-field{
+    /* Frame 1321314918 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12.5px 15px;
+    gap: 10px;
+
+    width: 280px;
+    height: 49px;
+    background: linear-gradient(135deg, #1E2438 100%, #1C2032 0%);
+    border: 1px solid #CECECE;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.form-email{
+    /* Frame 1321314918 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12.5px 15px;
+    gap: 10px;
+
+    width: 280px;
+    height: 49px;
+
+    background: linear-gradient(135deg, #1E2438 100%, #1C2032 0%);
+    border: 2px solid #33EEFD;
+    box-shadow: -4px 4px 8px rgba(20, 23, 37, 0.2), 4px -4px 8px rgba(20, 23, 37, 0.2), -4px -4px 8px rgba(38, 45, 69, 0.9), 4px 4px 10px rgba(20, 23, 37, 0.9), inset 1px 1px 2px rgba(38, 45, 69, 0.3), inset -1px -1px 2px rgba(20, 23, 37, 0.5);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+
+.report-heading{
+    /* The most comprehensive vehicle report guaranteed */
+
+    margin: 0 auto;
+    height: 134px;
+
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    letter-spacing: -0.01em;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+.report-para{
+    /* Getting the facts right is the first step to buying a car with confidence that’s why our comprehensive reports are the most advanced Vehicle history records providers, we offer users comprehensive, real-time Federal Govt Title, Total Loss Data & more, at an affordable price. */
+
+    margin: 0 auto;
+    /* width: 599.39px; */
+    height: 96px;
+
+    /* font-family: 'Inter Display'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+
+    color: #000000;
+
+    /* border-left: 2px solid black; */
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+.linear-g{
+    border-width: 0px 0px 0px 2px;
+    border-color: white;
+    border-image: linear-gradient(
+        0deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(344deg 0% 89%) 10%,
+        hsl(344deg 0% 78%) 20%,
+        hsl(344deg 0% 67%) 30%,
+        hsl(344deg 0% 56%) 40%,
+        hsl(0deg 0% 46%) 50%,
+        hsl(344deg 0% 56%) 60%,
+        hsl(344deg 0% 67%) 70%,
+        hsl(344deg 0% 78%) 80%,
+        hsl(344deg 0% 89%) 90%,
+        hsl(0deg 0% 100%) 100%
+      ) 1;
+    background: linear-gradient(0deg, transparent 1.53%, rgba(255,255,255,0.2) 98%, transparent 1.53%);
+}
+
+
+.icon-bg{
+    /* Frame 1321314916 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+
+    width: 70px;
+    height: 70px;
+
+    background: linear-gradient(180deg, #040A1F 0%, #041747 100%);
+    border: 1.5px solid #FFFFFF;
+    box-shadow: 0px 0px 0px 1px #0A39AD;
+    border-radius: 15px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.icon-div{
+/* Frame 1321314931 */
+
+box-sizing: border-box;
+    gap: 15px;
+
+    /* width: 1290px;
+    height: 174px; */
+
+    background: linear-gradient(180deg, rgba(61, 109, 255, 0.05) 0%, rgba(0, 40, 161, 0.05) 100%);
+    border: 1px solid #B8B8B8;
+    border-radius: 15px;
+
+}
