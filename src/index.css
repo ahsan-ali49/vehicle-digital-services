@@ -11,37 +11,18 @@ body::-webkit-scrollbar {
 }
 
 .hero-bg{
-
     background: radial-gradient(50% 50% at 50% 50%, #040A1F 0%, #040A1F 100%);
-
 }
 
 .contact-btn{
-/* Frame 1321314909 */
-
     box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 10px 20px;
-    gap: 10px;
 
-    /* margin: 0 auto; */
-    /* width: 124px; */
     height: 42px;
 
     background: #FFFFFF;
     box-shadow: 0px 0px 0px 1px #FFFFFF;
     border-radius: 10px;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-
 }
 
 
@@ -50,12 +31,7 @@ body::-webkit-scrollbar {
 }
 
 .hero-heading{
-    /* Helping you choose the Right Vehicle */
 
-    width: 641.26px;
-    height: 172px;
-
-    /* font-family: 'Neue Haas Grotesk Display Pro'; */
     font-style: normal;
     font-weight: 500;
     font-size: 72px;
@@ -63,12 +39,6 @@ body::-webkit-scrollbar {
     letter-spacing: -0.01em;
 
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 
 }
 
@@ -152,7 +122,7 @@ body::-webkit-scrollbar {
 .report-heading{
     /* The most comprehensive vehicle report guaranteed */
 
-    margin: 0 auto;
+    /* margin: 0 auto; */
     height: 134px;
 
     /* font-family: 'Neue Haas Grotesk Display Pro'; */
@@ -163,12 +133,6 @@ body::-webkit-scrollbar {
     letter-spacing: -0.01em;
 
     color: #000000;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 
 }
 
@@ -198,7 +162,7 @@ body::-webkit-scrollbar {
 
 
 .linear-g{
-    border-width: 0px 0px 0px 2px;
+    /* border-width: 0px 0px 0px 2px; */
     border-color: white;
     border-image: linear-gradient(
         0deg,
@@ -248,8 +212,7 @@ body::-webkit-scrollbar {
 .icon-div{
 /* Frame 1321314931 */
 
-box-sizing: border-box;
-    gap: 15px;
+    box-sizing: border-box;
 
     background: linear-gradient(180deg, rgba(61, 109, 255, 0.05) 0%, rgba(0, 40, 161, 0.05) 100%);
     border: 1px solid #B8B8B8;
@@ -258,28 +221,15 @@ box-sizing: border-box;
 }
 
 .report-section-heading{
-    /* Our Report Checks For */
 
-    /* width: 1290px;
-    height: 67px; */
-
-    /* font-family: 'Neue Haas Grotesk Display Pro'; */
     font-style: normal;
     font-weight: 500;
-    font-size: 56px;
+    /* font-size: 56px; */
     line-height: 67px;
     text-align: center;
     letter-spacing: -0.01em;
 
     color: #000000;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-
 }
 
 .pricing-heading{
@@ -288,7 +238,7 @@ box-sizing: border-box;
     /* font-family: 'Neue Haas Grotesk Display Pro'; */
     font-style: normal;
     font-weight: 500;
-    font-size: 56px;
+    /* font-size: 56px; */
     line-height: 67px;
     text-align: center;
     letter-spacing: -0.01em;
@@ -444,9 +394,6 @@ box-sizing: border-box;
 
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
-    letter-spacing: -0.02em;
 
     color: #FFFFFF;
 
@@ -457,9 +404,6 @@ box-sizing: border-box;
 
     font-style: normal;
     font-weight: 500;
-    font-size: 56px;
-    line-height: 67px;
-    letter-spacing: -0.03em;
 
     color: #000000;
 
@@ -493,17 +437,7 @@ box-sizing: border-box;
 }
 
 .contact-div-btn{
-    /* Frame 1321314923 */
-
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 15px 30px;
-    gap: 10px;
 
     width: 185px;
     height: 54px;
@@ -511,21 +445,13 @@ box-sizing: border-box;
     background: #FFFFFF;
     box-shadow: 0px 0px 0px 1px #FFFFFF;
     border-radius: 10px;
-
 }
 
 .name-form-field{
 
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 12.5px 15px;
-    gap: 10px;
 
-    width: 280px;
+    /* width: 280px; */
     height: 49px;
 
     background: linear-gradient(135deg, #E5E5E5 100%, #FDFDFD 0%);
@@ -535,18 +461,10 @@ box-sizing: border-box;
 }
 
 .email-form-field{
-    /* Frame 1321314921 */
 
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 12.5px 15px;
-    gap: 10px;
 
-    width: 280px;
+    /* width: 280px; */
     height: 49px;
 
     background: #FFFFFF;
@@ -556,29 +474,12 @@ box-sizing: border-box;
 }
 
 .contact-form-field{
-    /* Frame 1321314922 */
 
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 12.5px 15px;
-    gap: 10px;
-
-    width: 455px;
-    height: 49px;
 
     background: #FFFFFF;
     border: 1px solid #D7D7D7;
     border-radius: 8px;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
 }
 
 .message-form-field{
@@ -588,7 +489,7 @@ box-sizing: border-box;
 
     padding: 0px 15px;
 
-    width: 560px;
+    /* width: 560px; */
     height: 123px;
 
     background: #FFFFFF;

@@ -2,7 +2,7 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import heroCar from "../assets/images/heroCar.png";
-import heroBackground from "../assets/images/heroBackground.png";
+// import heroBackground from "../assets/images/heroBackground.png";
 
 const initialValues = {
   email: "",
@@ -21,7 +21,7 @@ const validationSchema = Yup.object({
 
 const Hero = () => {
   return (
-    <div className="w-full rounded-b-3xl pt-5 ps-9 hero-bg">
+    <div className="w-full rounded-b-3xl py-5 ps-2 md:ps-9 hero-bg">
       <div className="w-full flex flex-col gap-8">
         <div className="flex flex-row items-center gap-2">
           <span className="text-5xl span-text">203,244</span>
@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-row">
           <div>
-            <h1 className="hero-heading">
+            <h1 className="hero-heading w-full md:w-3/4">
               Helping you choose the Right Vehicle
             </h1>
             <span className="hero-span">
@@ -43,7 +43,7 @@ const Hero = () => {
               validationSchema={validationSchema}
               onSubmit={onSubmit}
             >
-              <Form className="w-1/3 flex flex-col items-start">
+              <Form className="hidden md:block w-1/3 flex flex-col items-start">
                 <div className="flex flex-row gap-2 my-4 w-full">
                   <Field
                     type="email"
@@ -114,7 +114,11 @@ const Hero = () => {
           </div>
           <div>
             {/* <img src={heroBackground} alt="" /> */}
-            <img src={heroCar} alt="new audi a4l's" className="-mt-20" />
+            <img
+              src={heroCar}
+              alt="new audi a4l's"
+              className="hidden md:block -mt-20"
+            />
           </div>
         </div>
       </div>

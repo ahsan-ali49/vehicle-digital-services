@@ -15,14 +15,14 @@ const Report = () => {
   ];
 
   return (
-    <div className="w-full flex-col items-center pt-20 px-10">
-      <div className="flex flex-row justify-center items-center">
-        <div className="w-1/2">
+    <div className="w-full flex-col items-center pt-10 md:pt-20 px-10">
+      <div className="flex flex-col md:flex-row justify-center md:items-center">
+        <div className="w-full md:w-1/2">
           <h2 className="report-heading">
             The most comprehensive vehicle report guaranteed
           </h2>
         </div>
-        <div className="w-1/2 linear-g">
+        <div className="hidden md:block w-1/2 linear-g border border-0 md:border-l-2">
           <p className="ps-20 report-para">
             Getting the facts right is the first step to buying a car with
             confidence that’s why our comprehensive reports are the most
@@ -32,14 +32,14 @@ const Report = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-row justify-around mt-16 pl-4 pr-8 py-5 icon-div">
+      <div className="flex flex-row justify-around flex-wrap gap-y-2 md:gap-y-2 mt-36 md:mt-16 pl-4 pr-8 py-5 icon-div">
         {reportData.map((data, index) => (
           <div
             key={index}
             className={
               index == 0
-                ? "flex flex-col items-start gap-3 ps-3"
-                : "flex flex-col items-start gap-3 ps-3 linear-g"
+                ? "flex flex-col items-center md:items-start gap-3 ps-0 md:ps-3"
+                : "flex flex-col items-center md:items-start gap-3 ps-0 md:ps-3 linear-g border border-0 md:border-l-2"
             }
           >
             <div className="icon-bg">

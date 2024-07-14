@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            className="hover:bg-blue-800 dark:hover:bg-blue-700 border border-1 border-gray-950 h-10 contact-btn"
+            className="hidden md:block hover:bg-blue-800 dark:hover:bg-blue-700 border border-1 border-gray-950 h-10 contact-btn"
           >
             Contact Us
           </button>

@@ -45,8 +45,10 @@ const Pricing = () => {
   ];
   return (
     <div className="w-full flex-col items-center mt-10 pt-20 hero-bg">
-      <h2 className="pricing-heading">Pricing Options For Every Need</h2>
-      <div className="flex flex-row justify-center items-center py-12">
+      <h2 className="text-2xl md:text-5xl pricing-heading">
+        Pricing Options For Every Need
+      </h2>
+      <div className="flex flex-col md:flex-row justify-center items-center gap-y-8 md:gap-y-0 py-12">
         {cardsData.map((data, index) => (
           <PricingCard key={index} data={data} index={index} />
         ))}

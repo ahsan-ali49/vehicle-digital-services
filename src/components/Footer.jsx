@@ -12,10 +12,10 @@ import footer7 from "../assets/images/footer7.png";
 const Footer = () => {
   return (
     <div className="p-3">
-      <div className="w-full rounded-3xl py-5 px-9 hero-bg">
+      <div className="w-full rounded-3xl py-5 mb-2 px-9 hero-bg">
         <div className="w-full flex flex-col">
-          <div className="flex flex-row">
-            <div className="w-1/2">
+          <div className="flex flex-row flex-wrap gap-y-4 ">
+            <div className="w-full md:w-1/2">
               <a
                 href="https://flowbite.com/"
                 className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -41,16 +41,16 @@ const Footer = () => {
               <div></div>
             </div>
           </div>
-          <p className="footer-para mb-8">
+          <p className="hidden md:block footer-para mb-8">
             Empower your vehicle purchase with our comprehensive VIN check
             service. Uncover the truth, make informed decisions, and drive away
             with peace of mind.
           </p>
-          <div className="flex flex-row justify-between">
-            <button className="border border-1 border-gray-950 contact-div-btn">
+          <div className="flex flex-row flex-wrap justify-between">
+            <button className="hidden md:block border border-1 border-gray-950 contact-div-btn">
               Check your car
             </button>
-            <div className="flex flex-col">
+            <div className="flex flex-col justify-center items-center md:items-end gap-y-1 mt-4 md:mt-0">
               <div className="flex flex-row justify-end gap-0 mx-0 px-0">
                 <img src={footer3} alt="" />
                 <img src={footer4} alt="" />
@@ -58,10 +58,10 @@ const Footer = () => {
                 <img src={footer6} alt="" />
                 <img src={footer7} alt="" />
               </div>
-              <div className="flex flex-row gap-4">
-                <span className="text-white">Privacy Policy</span>
-                <span className="text-white">Terms and Conditions</span>
-                <span className="text-white">
+              <div className="flex flex-row gap-0 md:gap-4">
+                <span className="text-white text-sm">Privacy Policy</span>
+                <span className="text-white text-sm">Terms and Conditions</span>
+                <span className="text-white text-sm">
                   Copyright 2024 Global Inspection Hub
                 </span>
               </div>
