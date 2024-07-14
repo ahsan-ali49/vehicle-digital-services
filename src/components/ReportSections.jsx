@@ -40,7 +40,7 @@ const ReportSections = () => {
                 <img
                   src={reportArrow1}
                   alt="arrow"
-                  className="hidden md:block absolute left-1/3 ml-4 -mt-44 w-72"
+                  className="hidden md:block absolute left-1/3 ml-10 -mt-44 w-72"
                 />
               </div>
               {/* <img src={reportArrow1} alt="arrow" className="absolute" /> */}
